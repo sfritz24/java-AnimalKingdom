@@ -32,5 +32,9 @@ public class Main
 
         System.out.println();
         System.out.println(mylist);
+
+        mylist.sort((v1, v2) -> v1.getName().compareToIgnoreCase(v2.getName()));
+        System.out.println();
+        System.out.println(mylist);
     }
 }
