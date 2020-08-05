@@ -20,7 +20,7 @@ abstract class AbstractAnimals
     abstract int getId();
     abstract String getName();
     abstract int getYearDiscovered();
-    abstract String moves();
-    abstract String breathes();
-    abstract String reproduce();
+    abstract String getMoves();
+    abstract String getBreathes();
+    abstract String getReproduce();
 }
