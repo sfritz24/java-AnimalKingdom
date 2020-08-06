@@ -90,5 +90,10 @@ public class Main
         yearlist.sort((v1, v2) -> v1.getName().compareToIgnoreCase(v2.getName()));
         System.out.println();
         yearlist.forEach(v -> System.out.println(v));
+
+        List<AbstractAnimals> justmammals = filterAnimals(mylist, a -> a instanceof Mammals);
+        justmammals.sort((v1, v2) -> v1.getName().compareToIgnoreCase(v2.getName()));
+        System.out.println();
+        justmammals.forEach(v -> System.out.println(v));
     }
 }
